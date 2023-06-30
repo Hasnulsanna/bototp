@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://hasnulsanna7:123@cluster3.wauwkeu.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb_id', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
